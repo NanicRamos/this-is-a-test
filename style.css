@@ -1,0 +1,47 @@
+#myCanvas{
+    background-image: url('images/background.png');
+}
+
+#myPlayerHP{
+    background-color: hsl(111, 100%, 54%);
+    position: absolute; 
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    width: 100%
+}
+
+#myEmemyHP{
+    background-color: #39ff14;
+    position: absolute; 
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+}
+
+#myTimer{
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#myResults{
+    color: white;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
